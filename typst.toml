@@ -1,0 +1,17 @@
+[package]
+name = "vranc"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["cyl<389742010@qq.com>"]
+license = "MIT"
+description = "An implementation of vertical Chinese typesetting"
+repository = "https://github.com/cuisir7236/vrainc"
+keywords = ["chinese typst"]
+repository = "https://github.com/cuisir7236/vrainc"
+exclude = ["template/fonts"]
+categories = ["report"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "thumbnail"
