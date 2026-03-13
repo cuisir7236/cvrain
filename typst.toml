@@ -1,0 +1,16 @@
+[package]
+name = "vrain"
+version = "0.1.0"
+entrypoint = "template.typ"
+authors = ["cuisir<389742010@qq.com>"]
+license = "MIT"
+description = "An implementation of typesetting"
+repository = "https://github.com/cuisir7236/vrain"
+keywords = ["implementation","book", "report", "thesis"]
+categories = ["presentation"]
+exclude = [".github/"]
+
+[template]
+path = "template.typ"
+entrypoint = "main.typ"
+thumbnail = "thumbnail.png"
